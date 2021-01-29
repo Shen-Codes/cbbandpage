@@ -1,0 +1,45 @@
+header {
+	position: relative;
+	height: 7vh;
+}
+
+h3 {
+	position: relative;
+	margin-left: 2%;
+}
+
+.venue-input {
+	position: relative;
+	height: 10vh;
+}
+
+.venue-input__form {
+	margin: 5% 3% 0 2%;
+	display: flex;
+	
+}
+
+.venue-input__form input {
+	margin: 0 1% 0 1%;
+}
+
+.shows-list {
+	position: relative;
+	width: 85vw;
+}
+
+.shows-list__list-item {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+	font-size: 1.5rem;
+	justify-content: start;
+}
+
+.shows-list__list-item p {
+	margin: 2% 1% 0 1%;
+}
+
+.shows-list__list-item button {
+	margin: 0 1% 0 1%;
+	align-self: center;
+}

@@ -1,0 +1,55 @@
+.admin-nav {
+	position: relative;
+}
+
+.youtube-div {
+	width: 85vw;
+}
+
+.selectable-videos {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	height: 45vh;
+}
+
+.selectable-videos__video {
+	display: flex;
+	flex-direction: column;
+	margin: 0 1% 0 1%;
+	width: 120px;
+	height: 200px;
+}
+
+.selected-videos {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	height: 45vh;
+}
+
+.selected-videos__video {
+	margin: 0 1% 0 1%;
+	width: 120px;
+	height: 200px;
+}
+
+
+h3 {
+	font-size: 3rem;
+	margin-bottom: 3%;
+}
+
+.media-management-links {
+	position: absolute;
+	font-size: 2rem;
+	top: 12%;
+	left: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.media-management-links__links {
+	margin-left: 5rem;
+}

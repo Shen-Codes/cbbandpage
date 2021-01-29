@@ -1,0 +1,118 @@
+body {
+	padding: 2rem;
+	background-color: rgb(233, 232, 227);
+}
+
+.background {
+	height: 98vh;
+	position: relative;
+	background-image: url(../../assets/pharoah-group-pic.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 0;
+	left: 0;
+
+	clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%)
+}
+
+.background__title {
+	position: absolute;
+	top: 20%;
+	left: 2%;
+	justify-content: center;
+}
+
+.background__title--title {
+	font-size: 6rem;
+	font-weight: 400;
+	letter-spacing: 2rem;
+	color: rgb(109, 194, 131);
+	
+	animation-name: moveInBottom;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+.background__nav {
+	position: absolute;
+	bottom: 10rem;
+	left: 55%;
+	font-size: 1.5rem;
+}
+
+.about-band {
+	margin-top: 5vh;
+	height: 45vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.about-band__title {
+	font-size: 5rem;
+	position: absolute;
+	left: 15%
+	
+}
+
+.about-band__p {
+	font-size: 2.5rem;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	width: 70%;
+	
+}
+
+.band-mates {
+	margin-top: 3vh;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 3fr 3fr;
+}
+
+.band-mates__section-title {
+	grid-column: span 2;
+	text-align: center;
+	font-size: 6rem;
+}
+
+.band-mates__band-mate-container {
+	display: grid;
+	grid-template-areas: 
+	"role name"
+	"picture picture"
+	"about about";
+	grid-column-end: span 1 / 1;
+	border: 1px black;
+	margin: 3rem;
+}
+
+.band-mates__band-mate-pic{
+	max-height: 85%;
+	width: 70%;
+	object-fit: cover;
+	grid-area: picture;
+	justify-self: center;
+	align-self: center;
+}
+
+.band-mates__band-mate-role {
+	text-align: center;
+	grid-area: role;
+	font-size: 3rem;
+}
+
+.band-mates__band-mate-name {
+	text-align: center;
+	grid-area: name;
+	font-size: 3rem;
+}
+
+.band-mates__band-mate-about {
+	text-align: center;
+	grid-area: about;
+	font-size: 2rem;
+}

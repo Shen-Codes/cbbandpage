@@ -1,0 +1,42 @@
+.youtube-carousel {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 55vh;
+	background-color: rgba(85, 25, 25, 0.3);
+}
+
+.carousel {
+	height: 45vh;
+	width: 80%;
+}
+
+.carousel-video {
+	width: 100%
+
+}
+.carousel-video__iframe {
+	width: 100%;
+	height: 100%;
+}
+.spotify-play-button {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 45vh;
+	justify-content: center;
+	margin: 4% 0 5% 0;
+}
+
+.spotify-play-button iframe {
+	height: 90%;
+}
+
+.spotify-play-button a {
+	justify-self: center;
+	align-self: center;
+	margin-top: 2%;
+}

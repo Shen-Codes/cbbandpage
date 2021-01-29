@@ -1,0 +1,35 @@
+.showdates {
+	padding: 2rem;
+	top: 25%;
+	position: relative;
+	display: flex;
+	height: 98vh;
+	flex-direction: column;
+	align-items: center;
+}
+
+td {
+	padding: 3% 5% 1% 0;
+	white-space: nowrap;
+	text-align: left;
+	font-size: 2rem;
+	border-bottom: 1px solid rgb(92, 92, 92);
+}
+
+.showdates__title {
+	font-size: 5rem;
+}
+
+.showdates-table {
+	margin-top: 3rem;
+}
+
+.showdates-table__label {
+	font-size: 3rem;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.showdates-table__row {
+	text-align: left;
+}
